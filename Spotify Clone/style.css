@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+nav{
+   font-family:'Ubuntu', sans-serif;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    height:65px;
+    background-color: black;
+    color:white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width:54px;
+    padding: 0 8px;
+}
+.brand {
+    display:flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.bottom{
+    position:sticky;
+    height:70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14px ;
+}
+
+.icons i {
+    cursor:pointer;
+}
+
+.container{
+    min-height: 63vh;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding:34px;
+    background-image: url('Arijit.jpg');
+
+}
+
+#myProgressBar{
+    width:80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songItemContainer{
+margin-top: 64px;
+}
+
+.songItem {
+    height:30px;
+    display: flex; 
+    background-color: white;
+    width: 30%;   
+    color: black;
+    margin: 8px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.songItem img{
+    width:43px;
+    height:  23px;
+    margin: 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px 8px;
+    border-radius: 12px;
+}
+.Timestamp{
+    margin: 0 2px;
+    padding: 0 8px;
+}
+
+.Timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    margin-top: 10px;
+    padding-top: 10px;
+    position: absolute;
+    left: 12vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.songInfo img{
+   opacity: 0;
+   transition: opacity 0.4s ease-in;
+}
